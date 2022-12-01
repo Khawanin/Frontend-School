@@ -160,6 +160,97 @@ a {
   color: #f8eeee;
 }
 
+/* Main section (Cards) */
+
+.our-services {
+  background-image: url(./Images/main.png);
+  background-repeat: repeat;
+  background-color: #272a31;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+}
+
+.service-heading {
+  color: #fff;
+  padding-top: 44px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+.line {
+  width: 20%;
+  height: 1px;
+  background-color: #ec5242;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-inline: auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  transition: 0.5s ease-in;
+  align-items: center;
+  padding: 16px 16px;
+  margin: 10px 10px;
+  display: flex;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border: 1px solid #fff;
+}
+
+.card-img {
+  width: 60px;
+  height: 60px;
+  padding: 4px 4px;
+}
+
+.card-title {
+  justify-content: space-between;
+  font-weight: 600;
+  color: #ec5242;
+  font-size: 14px;
+  text-align: center;
+  flex: 2;
+}
+
+.card-content {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  flex: 3;
+}
+
+.card-btn {
+  padding-inline: 20%;
+}
+
+.mob-btn {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 22px 50px;
+  border: none;
+  background-color: #ec5242;
+  color: #fff;
+  margin: 30px;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+
+.mob-btn:hover {
+  background-color: #9c4137;
+}
+
+.mob-btn:active {
+  background-color: #f04936;
+}
+
 /* Desktop Version Start */
 
 @media (min-width: 768px) {
@@ -247,5 +338,63 @@ a {
   .address {
     font-weight: 400;
     color: #fff;
+  }
+
+  /* Main Section (Cards) */
+
+  .service-heading {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .line {
+    width: 6%;
+    height: 1px;
+    background-color: #ec5242;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+
+  .my-cards {
+    display: flex;
+    gap: 3px;
+    padding: 20px 105px;
+  }
+
+  .card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 2px;
+    flex: 2;
+  }
+
+  .card-content {
+    text-align: center;
+    line-height: 18px;
+    flex: 3;
+  }
+
+  .card-btn {
+    padding-inline: 40%;
+  }
+
+  .desk-btn {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 50px 0;
+    display: block;
+    color: #fff;
+  }
+
+  .desk-btn:hover {
+    color: #ec5242;
   }
 }
