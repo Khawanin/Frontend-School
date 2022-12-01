@@ -251,6 +251,85 @@ a {
   background-color: #f04936;
 }
 
+/* OUR TEAM Section */
+.team-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-title {
+  margin-top: 1em;
+  color: #272a31;
+  font-size: 20px;
+  font-weight: 700;
+  height: 30px;
+  border-bottom-color: #ec5242;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.team-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-main {
+  display: flex;
+  padding: 10px;
+}
+
+.member-img {
+  width: 30%;
+  background-image: url('../img/speaker_background.png');
+  background-position: top left;
+  background-size: 60px;
+  background-repeat: no-repeat;
+}
+
+.individual-img {
+  width: 80%;
+  height: auto;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.member-info {
+  width: 70%;
+  padding-left: 5px;
+}
+
+.member-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #272a31;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.member-title {
+  color: #ec5242;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.member-intro {
+  font-weight: 100;
+  padding-top: 4px;
+  color: #272a31;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
 /* Desktop Version Start */
 
 @media (min-width: 768px) {
@@ -396,5 +475,21 @@ a {
 
   .desk-btn:hover {
     color: #ec5242;
+  }
+
+  /* Our Team */
+  .team-main {
+    width: 45%;
+    height: auto;
+  }
+
+  .team-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
