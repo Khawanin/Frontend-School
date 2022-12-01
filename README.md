@@ -48,7 +48,7 @@
 
 > Check the video presentation here:
 
-- [Vide Record]()
+- [Vide Record](https://www.loom.com/share/26a039c6608c473a91c47680c9100b64)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
