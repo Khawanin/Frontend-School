@@ -117,8 +117,8 @@ a {
 .frontend {
   line-height: 55px;
   color: #ec5242;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 900;
   width: 90%;
 }
 
@@ -217,6 +217,7 @@ a {
   font-size: 14px;
   text-align: center;
   flex: 2;
+  margin-right: 1em;
 }
 
 .card-content {
@@ -411,8 +412,8 @@ footer {
 
 .main-heading {
   line-height: 55px;
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 900;
   width: 100%;
   margin-bottom: 7px;
   text-align: left;
@@ -612,6 +613,7 @@ footer {
   .frontend {
     width: 60%;
     font-weight: 900;
+    font-size: 50px;
   }
 
   .short-info {
@@ -725,6 +727,7 @@ footer {
 
   .main-heading {
     text-align: center;
+    font-size: 50px;
   }
 
   .about-intro {
