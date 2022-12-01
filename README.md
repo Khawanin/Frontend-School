@@ -44,7 +44,7 @@
 
 > check live demo here: 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://khawanin.github.io/Frontend-School/)
 
 > Check the video presentation here:
 
