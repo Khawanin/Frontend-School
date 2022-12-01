@@ -1,22 +1,22 @@
 {
-  "name": "frontend-school",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "<!-- TABLE OF CONTENTS -->\r # 📗 Table of Contents",
+  "description": "My portfolio that shows my educational background, projects and technical skills.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Khawanin/Frontend-School.git"
+    "url": "git+https://github.com/Khawanin/Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Khawanin/Frontend-School/issues"
+    "url": "https://github.com/Khawanin/Portfolio/issues"
   },
-  "homepage": "https://github.com/Khawanin/Frontend-School#readme",
+  "homepage": "https://github.com/Khawanin/Portfolio#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
