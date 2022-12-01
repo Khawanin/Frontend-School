@@ -547,6 +547,11 @@ footer {
   transition: 0.7s ease;
 }
 
+.award-date,
+.award-text {
+  color: #fff;
+}
+
 /* Desktop Version Start */
 
 @media (min-width: 768px) {
