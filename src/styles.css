@@ -61,7 +61,7 @@ a {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #3c3f46;
+  background: #272a31;
   z-index: 1;
   opacity: 0.9;
   padding-top: 106px;
@@ -149,14 +149,14 @@ a {
   padding: 20px 0 0;
   font-size: 25px;
   font-weight: 400;
-  color: #f8eeee;
+  color: #272a31;
   margin-bottom: 0.5em;
 }
 
 .address {
   font-weight: 400;
   font-size: 18px;
-  color: #f8eeee;
+  color: #272a31;
 }
 
 /* Main section (Cards) */
