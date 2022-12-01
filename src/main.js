@@ -54,8 +54,8 @@ const members = [
 ];
 
 members.forEach((member) => {
-  document.getElementById('team-content').innerHTML +=
-    `<section class="team-main">
+  document.getElementById('team-content').innerHTML
+    += `<section class="team-main">
     <article class="member-img">
         <img class="individual-img" src="Images/${member.image}" alt="speaker image" />
     </article>

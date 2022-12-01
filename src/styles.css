@@ -29,7 +29,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: fit-content;
 }
 
 .union-icon {
@@ -524,13 +523,6 @@ footer {
   align-items: center;
 }
 
-.one:hover,
-.two:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  transition: 0.7s ease;
-}
-
 .two {
   height: 200px;
   background-image: url(../Images/cc-conf-2.jpg);
@@ -542,6 +534,13 @@ footer {
   align-items: center;
 }
 
+.one:hover,
+.two:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.7s ease;
+}
+
 /* Desktop Version Start */
 
 @media (min-width: 768px) {
@@ -550,7 +549,6 @@ footer {
     background-image: url(../Images/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: fit-content;
   }
 
   .top-header-list {
@@ -581,7 +579,6 @@ footer {
     align-items: center;
     background-color: #fff;
     min-height: 4em;
-
   }
 
   .page-logo {
@@ -604,7 +601,6 @@ footer {
   #hamburger-icon {
     display: none;
   }
-
 
   .mob-btn {
     display: none;
