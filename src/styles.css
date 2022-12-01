@@ -370,11 +370,11 @@ a {
 /* footer */
 footer {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 20px;
   gap: 40px;
   margin-bottom: 2em;
+  margin-left: 2em;
 }
 
 .footer-info {
@@ -717,6 +717,12 @@ footer {
 
   .s-logo {
     width: 50px;
+  }
+
+  /* footer */
+  footer {
+    margin-left: 10em;
+    height: 10em;
   }
 
   /* About Page */
