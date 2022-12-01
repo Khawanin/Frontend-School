@@ -553,7 +553,7 @@ footer {
 
   .top-header-list {
     display: flex;
-    background: gray;
+    background: #272a31;
     justify-content: flex-end;
     padding: 5px;
     gap: 1em;
@@ -561,16 +561,11 @@ footer {
   }
 
   .top-header-list a {
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .last {
     margin-right: 5em;
-  }
-
-  .list-btn {
-    border: 5px solid #ec5242;
-    padding: 0.5em;
   }
 
   .desktop-nav {
@@ -587,7 +582,7 @@ footer {
 
   .desktop-nav-list {
     display: flex;
-    gap: 2em;
+    gap: 1em;
   }
 
   .desktop-nav-list li a {
@@ -596,6 +591,12 @@ footer {
 
   .desktop-nav-list li a:hover {
     color: #ec5242;
+  }
+
+  #list-btn {
+    color: #ec5242;
+    border: 5px solid #ec5242;
+    padding: 0.5em;
   }
 
   #hamburger-icon {
