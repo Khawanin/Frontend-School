@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front-End School</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body>
+  <!-- A DIV which contains header & headline background image -->
+  <div class="headline-bg">
+    <header>
+      <div>
+        <ul class="top-header-list">
+          <li><img src="./Images/facebook.png" alt="facebook icon"></li>
+          <li><img src="./Images/twitter.png" alt="twitter icon"></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li class="last"><a href="#">Log out</a></li>
+        </ul>
+      </div>
+
+      <nav>
+        <!-- Desktop Navbar -->
+        <div class="desktop-nav">
+          <a href="./about.html">
+            <img class="page-logo" src="./Images/logo.png" alt="page logo">
+          </a>
+          <ul class="desktop-nav-list">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#team-container">Our Team</a></li>
+            <li><a href="#supporters">Sponsors</a></li>
+            <li class="last"><a id="list-btn" href="#">Our Projects</a></li>
+          </ul>
+        </div>
+
+        <!-- Mobile Navbar -->
+        <div>
+          <img id="hamburger-icon" class="union-icon" src="./Images/hamburger.png" alt="hamburger icon">
+
+          <!-- close icon-->
+          <a href="#" class="close-icon hidden">
+            <img src="./Images/close.png" alt="close icon">
+          </a>
+
+          <!-- mobile menu -->
+          <ul class="mobile-menu hidden">
+            <li class="mobile-list"><a href="./about.html">About</a></li>
+            <hr>
+            <li class="mobile-list"><a href="#services">Our Services</a></li>
+            <hr>
+            <li class="mobile-list"><a href="#team-container">Our Team</a></li>
+            <hr>
+            <li class="mobile-list"><a href="#supporters">Sponsors</a></li>
+            <hr>
+            <li class="mobile-list"><a href="#">Our Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="headline">
+      <article class="healine-title">
+        <p class="to-viewers">"Hello, front-end lovers!"</p>
+        <h1 class="frontend">Front-End School, best place to learn frontend technologies!</h1>
+      </article>
+
+      <article class="intro">
+
+        <p class="short-info">
+          Here we provide you with a structured pathway that will teach you all you need to know to become a front-end
+          web developer. Work through each section, learning new skills (or improving existing ones) as you go along.
+        </p>
+
+        <div class="my-info">
+          <p class="date">Monday to Friday ~ Full Time Program</p>
+          <p class="address">@Chandigarh, Punjab(India), Front-End School</p>
+        </div>
+
+      </article>
+    </section>
+
+  </div>
+  <!-- Headline and Navbar End -->
+
+  <!-- Main section (Cards) start -->
+  <main id="services" class="our-services">
+    <section class="main">
+      <h2 class="service-heading">Our Services</h2>
+      <div class="line"></div>
+
+      <section class="my-cards">
+
+        <article class="card">
+          <img class="card-img" src="./Images/one.png" alt="First card image">
+          <h3 class="card-title">Web Development</h3>
+          <p class="card-content">We will help you to learn the latest top frontend technologies. Such as: HTML5, CSS3,
+            BootStrap5, JS, React
+            and more. </p>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="./Images/two.png" alt="second card image">
+          <h3 class="card-title">Web Hosting</h3>
+          <p class="card-content">Currently we are hosting 2000+ web applications. Our goal is to provide outstanding
+            services for the best possible price.</p>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="./Images/three.png" alt="third card image">
+          <h3 class="card-title">Domain Registration</h3>
+          <p class="card-content">Online success starts with a great domain. At FR Graphics, we make it easy and
+            inexpensive to get the domain you want, secure and fast! </p>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="./Images/four.png" alt="fourth card image">
+          <h3 class="card-title">Digital Branding</h3>
+          <p class="card-content">To stand out, brands must have personality. They must express themselves in a unique
+            way to be easily recognizable. We work with you to define your brand's. </p>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="./Images/five.png" alt="fifth card image">
+          <h3 class="card-title">Network Management</h3>
+          <p class="card-content">We review the components of your existing network and make sound recommendations for
+            improvements to the network's design and performance. </p>
+        </article>
+      </section>
+
+      <article class="card-btn">
+        <button class="mob-btn" type="button">Join Our Community</button>
+
+        <a href="#" class="desk-btn">Check Our Curriculum</a>
+      </article>
+    </section>
+  </main>
+  <!-- Main section End -->
+
+  <!-- Our Team section -->
+  <section class="team-container" id="team-container">
+    <h2 class="team-title">Our Team Members</h2>
+    <div class="team-content" id="team-content">
+      <!-- Data Loading DYNAMICALLY -->
+    </div>
+  </section>
+
+  <!-- Sponsors Section Start -->
+  <section id="supporters" class="sponsors">
+
+    <article class="title-container">
+      <h2 class="s-title">Our Sponsors</h2>
+      <div class="line extend-line"></div>
+    </article>
+
+    <article class="sponsors-logos">
+      <img class="s-logo" src="./Images/Amazon.png" alt="amazon logo">
+      <img class="s-logo" src="./Images/Google.png" alt="google logo">
+      <img class="s-logo" src="./Images/Netflix.png" alt="netflix logo">
+      <img class="s-logo" src="./Images/PayPal.png" alt="paypal logo">
+      <img class="s-logo" src="./Images/Spotify.png" alt="spotify logo">
+    </article>
+
+  </section>
+  <!-- Sponsors Section End -->
+
+  <footer>
+    <img class="last-logo" src="./Images/last.png" alt="footer logo">
+    <article class="footer-info">
+      <h3>Frontend Development</h3>
+      <p>A place where you can start from zero experience of programming <br> and get mastery in most
+        up to date
+        technologies.</p>
+    </article>
+  </footer>
+</body>
+
+<script src="./src/main.js"></script>
+
+</html>
